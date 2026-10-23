@@ -15,7 +15,7 @@ pipeline {
         stage('Check Java and Maven') {
             steps {
                 bat 'java -version'
-                bat 'C:\Program Files\Java\jdk-21.0.12.1\bin'
+                bat '"C:\Program Files\Java\jdk-21.0.12.1\bin\java.exe"-version'
             }
         }
 
